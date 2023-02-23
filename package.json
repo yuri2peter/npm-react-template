@@ -1,0 +1,48 @@
+{
+  "name": "npm-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "webpack --watch --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "release": "release-it"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri2peter/npm-react-template.git"
+  },
+  "author": "Yuri2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuri2peter/npm-react-template/issues"
+  },
+  "homepage": "https://github.com/yuri2peter/npm-react-template#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "@types/react": "17.0.9",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "7.6.2",
+    "@babel/polyfill": "7.7.0",
+    "@babel/runtime": "7.7.2",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "@babel/core": "7.7.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-react": "7.7.0",
+    "arraybuffer-loader": "1.0.8",
+    "babel-loader": "8.0.5",
+    "release-it": "^15.6.0",
+    "ts-loader": "6.2.1",
+    "typescript": "4.3.2",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10"
+  }
+}
